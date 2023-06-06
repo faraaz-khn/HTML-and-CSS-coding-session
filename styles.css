@@ -4,6 +4,10 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+:root {
+    --primary-color: #4f46e5;
+}
+
 /* container */
 
 .container {
@@ -14,4 +18,21 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;   
+}
+
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color)
 }
