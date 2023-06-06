@@ -1,16 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
 
 body {
-    font-family: 'Manrope', sans-serif;
-}
-
-
-/* id is used as "#id_name" */
-#lib-header {
-    color: grey;
-}
-
-/* class is used as ".class_name" */
-.para {
-    color: blueviolet;
+    font-family: 'Playfair Display', serif;
 }
