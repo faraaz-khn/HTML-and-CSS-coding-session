@@ -4,3 +4,13 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+
+/* id is used as "#id_name" */
+#lib-header {
+    color: grey;
+}
+
+/* class is used as ".class_name" */
+.para {
+    color: blueviolet;
+}
