@@ -4,6 +4,10 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+hr {
+    margin: 2rem 1rem;
+}
+
 :root {
     --primary-color: #4f46e5;
 }
@@ -20,6 +24,8 @@ body {
     margin: auto;
 }
 
+/* links */
+
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -35,4 +41,15 @@ body {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     color: var(--primary-color)
+}
+
+/* lists */
+
+.list-none-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0.5rem 1rem;
 }
